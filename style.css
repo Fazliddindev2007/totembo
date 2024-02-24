@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* .navbar */
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    width: 1300px;
+    height: 45px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.navbar .card1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+.navbar .card2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 220px;
+
+}
+.navbar .card1 .card-2{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+.navbar .card1 a{
+    color: black;
+    font-size: 15px;
+}
+.navbar .card1 a:hover{
+    
+    background-color: black;
+    padding: 10px 10px;
+    transition: 2s;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.hr{
+    width: 1300px;
+    height: 2px;
+    background-color: black;
+}
+/* .navbar -end  */
+
+
+/* .container-1 */
+.container-1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-1 .grid-container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    border-radius: 10px;
+}
+.container-1 .grid-item{
+    background-color:#E1E1E1 ;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+}
+.item-1{
+    grid-column: 1/2;
+    width: 526px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card1-a{
+    position: relative;
+}
+.card1-a::before{
+    content: '50%';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    right: 150px;
+}
+.card1-a1{
+    position: relative;
+}
+.card1-a1::before{
+    content: '20%';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 90px;
+    right: -40px;
+}
+.item-1 .card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-3 .card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-2 .card2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+}
+.item-3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 300px;
+    width: 526px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+.item-2{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    width: 746px;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1-a2{
+    position: relative;
+}
+.card1-a2::before{
+    content: '50%';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 250px;
+    right: -20px;
+}
+/* .container-1 end  */
+.hr-a{
+    width: 1300px;
+    height: 2px;
+    background-color: black;;
+}
+
+/* container-2 */
+.container-2{
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-2 .box1,.box3{
+    text-align: center;
+}
+.container-2 .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.container-2 .grid-item{
+    background-color:#E1E1E1 ;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    width: 416px;
+    height: 460px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.card-s1{   
+    position: relative;
+}
+.card-s1::before{
+    content: 'NEW';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+.card-s2{
+    position: relative;
+}
+.card-s2::before{
+    content: '15%';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+.card-s3{
+    position: relative;
+}
+.card-s3::before{
+    content: '30%';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+.card-s15{
+    position: relative;
+}
+.card-s15::before{
+    content: '15%';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+.card-s30{
+    position: relative;
+}
+.card-s30::before{
+    content: '30%';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+.card-s10{
+    position: relative;
+}
+.card-s10::before{
+    content: '10%';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+.card-s50{
+    position: relative;
+}
+.card-s50::before{
+    content: '50%';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+.card-s20{
+    position: relative;
+}
+.card-s20::before{
+    content: '20%';
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+.img-s{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 40px;
+    height: 130px;
+}
+.box1p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.box1p .card2{
+    text-align: center;
+    width: 173;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* .text::before{
+    content: '\\f257';
+    font-family: 'icons';
+    } */
+/* container-2 -end  */
+/* container-3 */
+.container-3{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+}
+.container-3 .box{
+    display: flex;
+    justify-content: center ;
+}
+.container-3 .container-grid{
+    display: grid;
+    grid-template-columns: auto auto ;
+    border-radius: 10px;
+}
+.container-3 .grid-item{
+    background-color:#E1E1E1 ;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    width: 635px;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.itme-1{
+    background-image: url(./img-4/Rectangle\ 89.png);
+}
+.itme-2{
+    background-image: url(./img-4/Rectangle\ 90.png);
+}
+.box20{
+    width: 466px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: self-start;
+    color: #FFF;
+}
+.box20 .p{
+    color: #E1E1E1;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+    font-variant: all-small-caps;
+}
+.card-90{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    justify-content: space-between;
+}
+.card-1qa{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #FFF;
+    top: 90px;
+    left: 210px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.card-1qab{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #FFF;
+    top: 90px;
+    right: 610px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+/* .card1qw{
+    position: relative;
+}
+.card1qw{
+    content: 'Советы';
+    color: black;
+    background-color:#E1E1E1;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+} */
+/* container-3 -end  */
+.futter{
+    width: 100%;
+    height: 350px;
+    background-color:  #323232;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    justify-content: center;
+}
+.futter p{
+    color: rgb(182, 181, 181);
+}
+.futter a{
+    color: rgb(182, 181, 181);
+}
+.futter .box{
+    display: flex;
+    /* border: 2px  solid aqua; */
+    height: 300px;
+    width: 1000px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.futter .box .card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    /* border: 2px  solid aqua; */
+    width: 200px;
+
+}
+.futter .box .card-1 .card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+.futter .box .card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    /* border: 2px  solid aqua; */
+    width: 200px;
+
+}
+.futter .box .card-2 .card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.futter .box .card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    /* border: 2px  solid aqua; */
+    width: 200px;
+
+}
+.futter .box .card-3 .card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    /* margin-top: 20px;  */
+}
+.h4{
+    color: rgb(182, 181, 181);
+}
+.p-1{
+    display: flex;
+}
